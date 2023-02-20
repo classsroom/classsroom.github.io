@@ -1,0 +1,15 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+he {
+  font-style: bold;
+  font-family: Tahoma, sans-serif;
+}
+
+.element {
+  mask: url(https://classroom.google.com/) center / 100px repeat-y;
+}
