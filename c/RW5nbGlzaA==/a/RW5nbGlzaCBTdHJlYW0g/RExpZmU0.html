@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <title>English 1°</title>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/321723cf-583e-40f4-a9d0-7095c7206480/google-classroom.svg?v=16741686487135"
+    />
+  </head>
+  <script>
+    console.warn(
+      "%cNote!",
+      "color: purple; font-weight: 600; background: yellow; padding: 0 5px; border-radius: 5px",
+      "If you want to add my games to your site, please reach out at my email: bluahtcrewch@gmail.com\nPlease do not just add them without asking me first! Thank you!"
+    );
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "`")
+        window.open("https://classroom.google.com/", "_self");
+    });
+    window.addEventListener("keydown", (evt) => {
+      if (event.key === "Escape") {
+        window.open("https://classroom.google.com/", "_self");
+      }
+    });
+
+    function script(text) {
+      console.log(
+        "%cScript Injection",
+        "color: cyan; font-weight: 600; background: black; padding: 0 5px; border-radius: 5px",
+        text
+      );
+    }
+
+    // ====================================
+    // SCRIPT INJECTION
+    // ====================================
+
+    var gaenabled = window.localStorage.getItem("ga");
+    if (gaenabled == "false") {
+      script("Skipped GA injection because it is disabled by the user.");
+    } else {
+      const gascript = document.createElement("script");
+      gascript.setAttribute("async", "");
+      gascript.setAttribute(
+        "src",
+        "https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"
+      );
+      const inlinegascript = document.createElement("script");
+      inlinegascript.innerHTML = `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-98DP5VKS42');`;
+      document.head.append(gascript, inlinegascript);
+      script("Injected script 1/5 (Google Tag Manager)");
+    }
+
+    const tabCloak = document.createElement("script");
+    tabCloak.setAttribute("src", "/js/tab_cloak.js");
+    document.head.append(tabCloak);
+    script("Injected script 2/5 (Tab Cloaking)");
+
+    const arc = document.createElement("script");
+    arc.setAttribute("async", "");
+    arc.setAttribute("src", "https://arc.io/widget.min.js#eRPHFgiC");
+    document.head.append(arc);
+    script("Injected script 3/5 (Widget stuff)");
+
+    const adblock = document.createElement("script");
+    adblock.setAttribute(
+      "src",
+      "https://fundingchoicesmessages.google.com/i/pub-5756835229788588?ers=1"
+    );
+    adblock.setAttribute("nonce", "yibq-w_TR5NOCRWsU-VL0Q");
+    adblock.setAttribute("async", "");
+    document.head.append(adblock);
+    script("Injected script 4/5 (Ad stuff)");
+
+    const ad = document.createElement("script");
+    ad.setAttribute("async", "");
+    ad.setAttribute(
+      "src",
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588"
+    );
+    ad.setAttribute("crossorigin", "anonymous");
+    document.head.append(ad);
+    script("Injected script 3/5 (Ad stuff)");
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      font-family: "Jost", sans-serif;
+    }
+    nav {
+      justify-content: space-evenly;
+      background-color: White;
+      position: fixed;
+      text-align: left;
+      line-height: 45px;
+      text-weight: 20px;
+      border-bottom: 1px solid #e0e0e0;
+      width: 100%;
+      top: 0;
+      text-weight: bold;
+      font-family: "Jost", sans-serif;
+    }
+    nav a {
+      color: black;
+    }
+    .scene {
+      margin-top: 60px;
+      margin-left: 6px;
+      margin-right: 45px;
+      align: left;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+    footer {
+      text-align: center;
+      padding: 6px;
+      background-color: #efeded;
+      position: relative;
+      width: 100%;
+    }
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      font-family: "Jost", sans-serif;
+      text-align: left;
+    }
+    button {
+      background-color: White;
+      border: White;
+      align: left;
+    }
+    he {
+      font-style: bold;
+      font-family: Tahoma, sans-serif;
+    }
+    body {
+      font-family: helvetica, arial, sans-serif;
+      margin: 1rem;
+    }
+    .element {
+      mask: url(https://classroom.google.com/) center / 100px repeat-y;
+    }
+  </style>
+  <body style="margin: 0px">
+    <iframe
+      src="https://3kho.github.io/files/ducklife4/index.html"
+      style="
+        border: hidden;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        bottom: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+      "
+    ></iframe>
+  </body>
+</html>
+<style>
+  body {
+    overflow: hidden;
+    /* Hide scrollbars */
+  }
+</style>
+You're currently using an unsupported browser.
